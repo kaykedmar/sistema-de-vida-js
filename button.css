@@ -1,0 +1,50 @@
+/* Geral  */
+body { 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  background-color: black;
+}
+
+input { 
+  width: 250px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 3px solid rgb(196, 27, 27);
+  background-color: transparent;
+  color: gray;
+}
+
+input:focus { 
+  border: none;
+}
+
+
+/* Button */
+button { 
+  cursor: pointer;
+  margin-top: 20px;
+  background-color: transparent;
+  color: rgb(196, 27, 27);
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.20s;
+}
+
+button:hover { 
+  background-color: rgb(56, 56, 56);
+  color: gray;
+}
+
+button:active { 
+  background-color: rgb(37, 37, 37);
+  color: gray;
+}
+
+p { 
+  color: gray;
+}
